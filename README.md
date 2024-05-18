@@ -32,38 +32,39 @@ W aplikacji została użyta Integracja Sarmacka do Autoryzacji mieszkańca, dzi�
 
 
 **Pliki projektu:**
-/css/style.css
+
+*/css/style.css*
 
 Plik ze stylami CSS odpowiadającymi, za wygląd strony
 
-/img/
+*/img/*
 
 Folder z grafikami wykorzystywanymi w aplikacji
 
-/views/
+*/views/*
 
 Folder z plikami PHP, zawierającymi wygląd wyświetlanych podstron
 
-config.php
+*config.php*
 
 Plik przechowujący danych potrzebnych do konfiguracji aplikacji, takich jak połączenie z bazą czy ustawienia aplikacji
 
-index.php
+*index.php*
 
 Główny plik aplikacji, obsługujący wykonywanie odpowiednich funkcji aplikacji takich jak obsługa zdarzeń lub wyświetlanie odpowiedniego widoku
 
-init.php
+*init.php*
 
 Plik odpowiedzialny za załadowanie konfiguracji, Integracji z Sarmacją oraz ustanowienie połączenia z bazą danych
 
-sarmacja.php
+*sarmacja.php*
 
 Plik Integracji Sarmackiej, storzony przez NIA
 
-zdrapka.php
+*zdrapka.php*
 
 Plik odpowiedzialny za generowanie obrazu zdrapki na podstawie ID
 
-zdrapka.sql
+*zdrapka.sql*
 
 Plik zawierający schemat tabeli SQL
