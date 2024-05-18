@@ -1,10 +1,10 @@
-Aplikacja "Zdrapka Lovelace"
+#Aplikacja "Zdrapka Lovelace"
 
 Celem projektu było stworzenie aplikacji do zdrapek, która pozwala użytkownikom na kupowanie zdrapek, zdrapywanie ich, oraz wyświeltnie listy ostatnich otwartych zdrapek oraz tych nieotwartych. Projekt ten ma na celu pokazanie mojej znajomości technologii PHP, JavaScript, CSS oraz obsługi bazy danych MySQL.
 
 W aplikacji została użyta Integracja Sarmacka do Autoryzacji mieszkańca, dzięki której docelowi użytkownicy nie będą musieli tworzyć konta w aplikacji.
 
-Funkcje aplikacji:
+** Funkcje aplikacji: **
 * Obsługa sesji użytkownika (Logowanie, Wylogowywanie się oraz proste kominikaty)
 * Kupno zdrapki
 * Lista nieotworzonych zdrapek
@@ -12,12 +12,12 @@ Funkcje aplikacji:
 * Wyświetlenie zdrapki
 * Zdrapywanie zdrapki
 
-Użyte technologie:
+** Użyte technologie: **
 * Backend: PHP do obsługi logiki serwera i interakcji z bazą danych.
 * Frontend: JavaScript do dynamicznej interakcji z użytkownikiem oraz CSS do stylizacji strony.
 * Baza danych: MySQL do przechowywania danych o zdrapkach.
 
-Rozwiązane problemy:
+** Rozwiązane problemy: **
 * Połączenie aplikacji z bazą danych
 * Weryfikacja użytkowników z wykorzystaniem integracji Sarmackiej
 * Stworzenie schematu tabeli przechowującej informacje o zdrapkach
@@ -31,7 +31,7 @@ Rozwiązane problemy:
 * Wypłata nagrody za wygraną zdrapkę dla użytkownika po zdrapaniu odpowiedniego pola
 
 
-Pliki projektu:
+** Pliki projektu: **
 /css/style.css
 Plik ze stylami CSS odpowiadającymi, za wygląd strony
 

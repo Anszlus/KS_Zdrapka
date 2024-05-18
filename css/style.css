@@ -1,0 +1,74 @@
+:root {
+  --text-color: #eee;
+  --text-muted: #777;
+  --background-color: #333;
+  --border-color: #999;
+  --table-bg-color: #222;
+  --table-bg-color-secondary: #252525;
+  --padding: 5px;
+  --info-border-color: #008000;
+  --info-bg-color: #90ee90;
+  --info-text-color: #000;
+  --link-color: #ffe4c4;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a.link {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+p.info {
+  text-align: center;
+  border: 1px solid var(--info-border-color);
+  padding: var(--padding);
+  background-color: var(--info-bg-color);
+  color: var(--info-text-color);
+}
+
+h1.title {
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+  padding: calc(3 * var(--padding)) var(--padding);
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  padding: var(--padding);
+}
+
+.zdrapki {
+  margin-top: 10px;
+}
+
+.zdrapki>table {
+  width: 100%;
+}
+
+.zdrapki>table td,
+.zdrapki>table td {
+  padding: var(--padding);
+  text-align: center;
+}
+
+.zdrapki>table th:hover,
+.zdrapki>table tr:hover {
+  background-color: var(--table-bg-color);
+}
+
+tr[id^="zdrapka"]:target {
+  background-color: var(--table-bg-color-secondary);
+}
+
+#footer {
+  color: var(--text-muted);
+  margin-top: 50px;
+  text-wrap: balance;
+  text-align: center;
+}
